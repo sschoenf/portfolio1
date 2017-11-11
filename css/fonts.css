@@ -2,7 +2,9 @@
   font-family: "SFUITextBold";
   font-weight: normal;
   font-style: normal;
-  src: url("../fonts/SF-UI-Text-Bold.otf");
+  src: url("../fonts/SF-UI-Text-Bold.otf"),
+      url("../fonts/sf-ui-text-bold-webfont.woff"),
+      url("../fonts/sf-ui-text-bold-webfont.woff2");
 }
 
 
@@ -20,14 +22,20 @@
   font-family: "SFUITextRegular";
   font-weight: normal;
   font-style: normal;
-  src: url("../fonts/SF-UI-Text-Regular.otf");
+  src: url("../fonts/SF-UI-Text-Regular.otf"),
+  url("../fonts/sf-ui-text-regular-webfont.ttf"),
+  url("../fonts/sf-ui-text-regular-webfont.woff"),
+  url("../fonts/sf-ui-text-regular-webfont.woff2");
 }
 
 @font-face {
   font-family: "SFUITextLight";
   font-weight: normal;
   font-style: normal;
-  src: url("../fonts/SF-UI-Text-Light.otf");
+  src: url("../fonts/SF-UI-Text-Light.otf"),
+  url("../fonts/sf-ui-text-light-webfont.ttf"),
+  url("../fonts/sf-ui-text-light-webfont.woff"),
+  url("../fonts/sf-ui-text-light-webfont.woff2");
 }
 
 
@@ -35,7 +43,10 @@
   font-family: "SFUITextHeavy";
   font-weight: normal;
   font-style: normal;
-  src: url("../fonts/SF-UI-Text-Heavy.otf");
+  src: url("../fonts/SF-UI-Text-Heavy.otf"),
+  url("../fonts/sf-ui-text-heavy-webfont.ttf"),
+  url("../fonts/sf-ui-text-heavy-webfont.woff"),
+  url("../fonts/sf-ui-text-heavy-webfont.woff2");
 }
 
 
@@ -43,5 +54,8 @@
   font-family: "SFUITextSemibold";
   font-weight: normal;
   font-style: normal;
-  src: url("../fonts/SF-UI-Text-Semibold.otf");
+  src: url("../fonts/SF-UI-Text-Semibold.otf"),
+  url("../fonts/sf-ui-text-semibold-webfont.ttf"),
+  url("../fonts/sf-ui-text-semibold-webfont.woff"),
+  url("../fonts/sf-ui-text-semibold-webfont.woff2");
 }
