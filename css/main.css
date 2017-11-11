@@ -30,7 +30,7 @@ body {
 
 h1 {
 
-  font-family: "SFUITextMedium", Arial , sans-serif;
+  font-family: "SFUITextLight", Arial , sans-serif;
   font-size: 3.2rem;
   color: #00797B;
   letter-spacing: 2.08px;
@@ -48,6 +48,10 @@ h2 {
 */
 }
 
+.nav-heading {
+  margin-top: 0;
+}
+
 h3 {
   font-family: "SFUITextMedium", Arial , sans-serif;
   font-size: 1.5rem;
@@ -63,4 +67,8 @@ h3 {
 
 footer {
   background: #F8F8F8;
+}
+
+header {
+
 }
