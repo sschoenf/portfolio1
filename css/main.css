@@ -1,0 +1,66 @@
+
+a {
+  text-decoration: none;
+}
+
+a .selected {
+  /*text-decoration: underline #00797B;*/
+    display: inline-block;
+    border-bottom: 2px solid #00797B;
+}
+
+a:focus, a:hover, h2:focus, h2:hover {
+
+  color: #FFD6D0;
+  text-decoration: none;
+
+}
+
+.selected:focus .selected:hover{
+  display: inline-block;
+  border-bottom: 2px solid #FFD6D0;
+}
+
+
+body {
+  width: 100%;
+}
+
+/*Headings*/
+
+h1 {
+
+  font-family: "SFUITextMedium", Arial , sans-serif;
+  font-size: 3.2rem;
+  color: #00797B;
+  letter-spacing: 2.08px;
+
+}
+
+/*nav*/
+
+h2 {
+  font-family: "SFUITextMedium", Arial , sans-serif;
+  font-size: 1rem;
+  color: #383D41;
+  letter-spacing: 0.87px;
+    /*margin-top: 0;    removes top bar, but re-think how to address this for top bar
+*/
+}
+
+h3 {
+  font-family: "SFUITextMedium", Arial , sans-serif;
+  font-size: 1.5rem;
+  color: #383D41;
+  letter-spacing: 1.3px;
+}
+
+/*sections*/
+
+#introduction {
+  background: #F8F8F8;
+}
+
+footer {
+  background: #F8F8F8;
+}
