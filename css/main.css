@@ -22,12 +22,60 @@ a:focus, a:hover, h2:focus, h2:hover {
 }
 
 
-body {
-  width: 100%;
+.header-branding {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1rem 0;
+    width: 100%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 72rem;
+    margin: auto;
+  }
+
+  .header-branding > div:first-of-type {
+      width: 100%;
+  }
+
+
+  .padded-container {
+    padding: 1rem 1rem 0 1rem;
+}
+
+/*nav*/
+
+nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.nav-heading {
+  margin-top: 0;
+}
+
+
+main {
+    max-width: 72rem;
+    margin: auto;
+    padding-top: 5.857125rem;
+    width: 100%;
+}
+
+.main_wrap {
+  flex-wrap: wrap;
 }
 
 /*Headings*/
 
+/*hello*/
 h1 {
 
   font-family: "SFUITextLight", Arial , sans-serif;
@@ -37,38 +85,104 @@ h1 {
 
 }
 
-/*nav*/
-
+/*nav heading*/
 h2 {
   font-family: "SFUITextMedium", Arial , sans-serif;
   font-size: 1rem;
   color: #383D41;
   letter-spacing: 0.87px;
-    /*margin-top: 0;    removes top bar, but re-think how to address this for top bar
-*/
 }
 
-.nav-heading {
-  margin-top: 0;
-}
-
+/*introduction text*/
 h3 {
   font-family: "SFUITextMedium", Arial , sans-serif;
   font-size: 1.5rem;
   color: #383D41;
   letter-spacing: 1.3px;
+  line-height: 40px;
 }
 
+h3 .contact{
+  font-family: "SFUITextRegular", Arial , sans-serif;
+  font-size: 1.5rem;
+  color: #383D41;
+  letter-spacing: 1.3px;
+  line-height: 40px;
+
+}
+
+
+
+/*project headings*/
+h4 {
+  font-family: "SFUITextMedium", Arial , sans-serif;
+  font-size: 1.2rem;
+  color: #383D41;
+  letter-spacing: 1.3px;
+}
+
+
+/*case study heading*/
+h5 {
+  font-family: "SFUITextMedium", Arial , sans-serif;
+  font-size: 1rem;
+  color: #777A7D;
+  letter-spacing: 0.78px;
+}
+
+/*project section heading*/
+h6 {
+  font-family: "SFUITextHeavy", Arial , sans-serif;
+  font-size: .9rem;
+  color: #00797B;
+  letter-spacing: 0.78px;
+
+}
+
+
+p {
+  /* An athletic performa: */
+  font-family: "SFUITextRegular", Arial , sans-serif;
+  font-size: 1rem;
+  color: #2D2D2D;
+  line-height: 20px;
+
+}
+/*
+.center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}*/
 /*sections*/
 
-#introduction {
+/*#introduction {
   background: #F8F8F8;
+}*/
+
+
+.homepage-image {
+  margin: 0;
+}
+
+.homepage-image img {
+  width: 400px;
+  height: auto;
+
+}
+
+.homepage-text {
+  max-width: 85%;
+  margin: 0 auto;
 }
 
 footer {
   background: #F8F8F8;
-}
-
-header {
-
+  padding: 1rem;
 }

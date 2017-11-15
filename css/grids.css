@@ -11,7 +11,9 @@
     display: block;
 }
 
-.grid.demo .col div {
+
+
+/*.grid.demo .col div {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -25,12 +27,13 @@
     color: white;
     border: solid;
     border-color: white;
-}
+}*/
 
 .col {
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
+
 }
 
 .grid .col.bleed {
@@ -114,6 +117,13 @@
 
 .padded-container {
     padding: 1rem 1rem 0 1rem;
+}
+
+/*used on project preview on index page*/
+.padded-container-margin {
+  margin-top: 8rem;
+  margin-bottom: 9rem;
+  padding: 1rem 1rem 0 1rem;
 }
 
 .padded-order-button {
