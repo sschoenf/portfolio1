@@ -21,6 +21,10 @@ a:focus, a:hover, h2:focus, h2:hover {
   border-bottom: 2px solid #FFD6D0;
 }
 
+footer {
+  background: #F8F8F8;
+  padding: 1rem;
+}
 
 .header-branding {
     display: -webkit-box;
@@ -182,7 +186,13 @@ p {
   margin: 0 auto;
 }
 
-footer {
-  background: #F8F8F8;
-  padding: 1rem;
+a.card {
+  display: block;
+  padding-bottom: 2rem;
+    border-bottom: 6px solid #00797B;
+}
+
+a.card:hover, a.card:focus {
+
+  box-shadow: 2px 3px 6px #888888;
 }
