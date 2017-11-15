@@ -11,7 +11,10 @@
     display: block;
 }
 
-
+.grid-center {
+    display: block;
+    justify-content: center;
+}
 
 /*.grid.demo .col div {
     display: -webkit-box;
@@ -121,7 +124,7 @@
 
 /*used on project preview on index page*/
 .padded-container-margin {
-  margin-top: 8rem;
+  margin-top: 9rem;
   margin-bottom: 9rem;
   padding: 1rem 1rem 0 1rem;
 }
