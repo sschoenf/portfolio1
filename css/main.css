@@ -31,7 +31,7 @@ footer {
 
 /*header{
   position:fixed;
-  min-width:80%; will need to change
+  min-width:80%;
 }*/
 
 
@@ -74,13 +74,6 @@ nav {
   margin-top: 0;
 }
 
-/*add . make a new class show how you want it to be styled
-font-family: "SFUITextMedium", Arial , sans-serif;
-font-size: 1rem;
-color: #383D41;
-letter-spacing: 0.87px;
-padding-right: 2rem;
-*/
 
 main {
     max-width: 72rem;
@@ -287,6 +280,22 @@ padding-top: 1rem;
 padding-bottom: 10rem;
 min-height: 50vh;
 }
+
+
+.background-quiksilver {
+background-image: url("../img/qs-background.png");
+padding-top: 1rem;
+padding-bottom: 10rem;
+min-height: 50vh;
+}
+
+.background-wholefoods {
+background-image: url("../img/wf-background.png");
+padding-top: 1rem;
+padding-bottom: 10rem;
+min-height: 50vh;
+}
+
 
 .homepage-image {
   margin: 0;
