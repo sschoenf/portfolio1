@@ -9,7 +9,9 @@ a .selected {
     border-bottom: 2px solid #00797B;
 }
 
-a:focus, a:hover, h2:focus, h2:hover {
+/*h2:focus, h2:hover*/
+
+a:focus, a:hover,  {
 
   color: #FFD6D0;
   text-decoration: none;
@@ -29,6 +31,7 @@ footer {
 
 /*header{
   position:fixed;
+  min-width:80%; will need to change
 }*/
 
 
@@ -90,20 +93,48 @@ main {
   flex-wrap: wrap;
 }
 
-/*Headings*/
+/*Headings and styles*/
 
-/*hello*/
 h1 {
+  font-family: "SFUITextRegular", Arial , sans-serif;
+}
 
+h2 {
+  font-family: "SFUITextRegular", Arial , sans-serif;
+}
+
+h3 {
+  font-family: "SFUITextRegular", Arial , sans-serif;
+}
+
+h4 {
+  font-family: "SFUITextRegular", Arial , sans-serif;
+}
+
+h5 {
   font-family: "SFUITextLight", Arial , sans-serif;
-  font-size: 3.2rem;
-  color: #00797B;
-  letter-spacing: 2.08px;
+}
+
+h6 {
+  font-family: "SFUITextLight", Arial , sans-serif;
 
 }
 
-/*nav heading*/
-h2 {
+p {
+  font-family: "SFUITextRegular", Arial , sans-serif;
+
+}
+
+
+.nav-name-style {
+    font-family: "SFUITextMedium", Arial , sans-serif;
+    font-size: 1rem;
+    color: #383D41;
+    letter-spacing: 0.87px;
+    margin-right: 15px;
+}
+
+.nav-text-style {
   font-family: "SFUITextMedium", Arial , sans-serif;
   font-size: 1rem;
   color: #383D41;
@@ -111,8 +142,16 @@ h2 {
   margin-right: 15px;
 }
 
-/*introduction text*/
-h3 {
+
+.intro-title-style {
+  font-family: "SFUITextLight", Arial , sans-serif;
+  font-size: 3.2rem;
+  color: #00797B;
+  letter-spacing: 2.08px;
+
+}
+
+.intro-text-style {
   font-family: "SFUITextMedium", Arial , sans-serif;
   font-size: 1.5rem;
   color: #383D41;
@@ -120,52 +159,110 @@ h3 {
   line-height: 40px;
 }
 
-h3 .contact{
-  font-family: "SFUITextRegular", Arial , sans-serif;
-  font-size: 1.5rem;
-  color: #383D41;
-  letter-spacing: 1.3px;
-  line-height: 40px;
+.project-preview-heading {
 
-}
-
-
-
-/*project headings*/
-h4 {
   font-family: "SFUITextMedium", Arial , sans-serif;
   font-size: 1.2rem;
   color: #383D41;
   letter-spacing: 1.3px;
+  margin-bottom: .5rem;
+
 }
 
-
-/*case study heading*/
-h5 {
+.project-preview-heading-2 {
   font-family: "SFUITextMedium", Arial , sans-serif;
   font-size: 1rem;
   color: #777A7D;
   letter-spacing: 0.78px;
-}
-
-/*project section heading*/
-h6 {
-  font-family: "SFUITextHeavy", Arial , sans-serif;
-  font-size: .9rem;
-  color: #00797B;
-  letter-spacing: 0.78px;
-
+  margin-top: 0rem;
 }
 
 
-p {
-  /* An athletic performa: */
+.footer-header {
+  font-family: "SFUITextRegular", Arial , sans-serif;
+  font-size: 1rem;
+  color: #383D41;
+  letter-spacing: 1.3px;
+  margin: 0;
+}
+
+
+.paragraph-description {
   font-family: "SFUITextRegular", Arial , sans-serif;
   font-size: 1rem;
   color: #2D2D2D;
   line-height: 20px;
+}
+
+
+/*Project pages headings*/
+.project-header {
+  font-family: "SFUITextMedium", Arial , sans-serif;
+  font-size: 1.8rem;
+  color: #383D41;
+  letter-spacing: 1.3px;
+  margin-bottom: .5rem;
+}
+
+.project-header-2 {
+  font-family: "SFUITextMedium", Arial , sans-serif;
+  font-size: 1rem;
+  color: #777A7D;
+  letter-spacing: 0.78px;
+  margin-top: 0rem;
+}
+
+.project-paragraph-description {
+  font-family: "SFUITextRegular", Arial , sans-serif;
+  font-size: 1.3rem;
+  color: #2D2D2D;
+  line-height: 20px;
+}
+
+.project-side-hearder {
+font-family: "SFUITextBold", Arial , sans-serif;
+font-size: 1rem;
+color: #6F7173;
+letter-spacing: 0.61px;
+}
+
+.project-side-paragraph {
+font-family: "SFUITextRegular", Arial , sans-serif;
+font-size: .9rem;
+color: #6F7173;
+letter-spacing: 0.52px;
+}
+
+
+.project-subheading {
+font-family: "SFUITextHeavy", Arial , sans-serif;
+font-size: 1.2rem;
+color: #00797B;
+letter-spacing: 0.78px;
+}
+
+.project-subheading-2 {
+  font-family: "SFUITextMedium", Arial , sans-serif;
+  font-size: 24px;
+  color: #777A7D;
+  letter-spacing: 1.04px;
+}
+
+.project-paragraph {
+  font-family: "SFUITextRegular", Arial , sans-serif;
+  font-size: 1rem;
+  color: #2D2D2D;
+  line-height: 28px;
 
 }
+
+.project-paragraph-emphasis {
+  font-family: "SFUITextMedium", Arial , sans-serif;
+  font-size: 1rem;
+  color: #2D2D2D;
+  line-height: 28px;
+}
+
 /*
 .center {
     display: -webkit-box;
@@ -180,16 +277,15 @@ p {
 }*/
 /*sections*/
 
-/*#introduction {
-  background: #F8F8F8;
-}*/
+
+
+/*background bleed*/
 .background-homepage {
 
 background-color: #F8F8F8;
 padding-top: 1rem;
 padding-bottom: 10rem;
 min-height: 50vh;
-
 }
 
 .homepage-image {

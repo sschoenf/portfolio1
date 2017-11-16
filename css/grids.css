@@ -110,13 +110,13 @@
 }
 
 /* With gutters */
-.gutters {
+/*.gutters {
     margin: -1rem 0 1rem -1rem;
 }
 
 .gutters:last-of-type {
     margin-bottom: 0;
-}
+}*/
 
 .padded-container {
     padding: 1rem 1rem 0 1rem;
