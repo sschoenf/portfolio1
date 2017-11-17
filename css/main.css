@@ -260,6 +260,14 @@ margin: 0;
   line-height: 28px;
 }
 
+.project-quote-style {
+font-family: "SFUITextLight", Arial , sans-serif;
+font-size: 1.1rem;
+color: #969595;
+line-height: 33px;
+text-align: center;
+}
+
 /*
 .center {
     display: -webkit-box;
@@ -307,6 +315,12 @@ min-height: 50vh;
 
 .homepage-image img {
   width: 400px;
+  height: auto;
+
+}
+
+.project-image img {
+  width: 100%;
   height: auto;
 
 }
