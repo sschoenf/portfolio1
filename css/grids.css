@@ -150,7 +150,7 @@
     flex-direction: column;
 }
 
-/*
+
 @media (min-width: 54.125em) {
     .grid {
         display: -webkit-box;
@@ -166,4 +166,4 @@
         display: block;
     }
 
-}*/
+}

@@ -207,9 +207,9 @@ p {
 
 .project-paragraph-description {
   font-family: "SFUITextRegular", Arial , sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: #2D2D2D;
-  line-height: 20px;
+  line-height: 30px;
 }
 
 .project-side-hearder {
@@ -232,6 +232,7 @@ font-family: "SFUITextHeavy", Arial , sans-serif;
 font-size: 1.2rem;
 color: #00797B;
 letter-spacing: 0.78px;
+margin: 0;
 }
 
 .project-subheading-2 {
@@ -239,6 +240,8 @@ letter-spacing: 0.78px;
   font-size: 24px;
   color: #777A7D;
   letter-spacing: 1.04px;
+  margin-top: 0;
+  margin-bottom: 2rem;
 }
 
 .project-paragraph {
@@ -246,6 +249,7 @@ letter-spacing: 0.78px;
   font-size: 1rem;
   color: #2D2D2D;
   line-height: 28px;
+
 
 }
 
