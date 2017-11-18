@@ -29,10 +29,10 @@ footer {
 }
 
 
-/*header{
+header{
   position:fixed;
-  min-width:80%;
-}*/
+  width:100%;
+}
 
 
 .header-branding {
@@ -268,6 +268,33 @@ line-height: 33px;
 text-align: center;
 }
 
+
+.contact-text-style {
+  font-family: "SFUITextMedium", Arial , sans-serif;
+  font-size: 1.5rem;
+  color: #383D41;
+  letter-spacing: 1px;
+  line-height: 40px;
+}
+
+.contact-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-start;
+  margin-bottom: 5rem;
+
+}
+
+.extra-8-3-margin {
+  margin-top: 8rem;
+  margin-bottom: 3rem;
+}
+
 /*
 .center {
     display: -webkit-box;
@@ -295,6 +322,8 @@ min-height: 50vh;
 
 
 .background-quiksilver {
+  background-position: bottom center;
+background-size: cover;
 background-image: url("../img/qs-background.png");
 padding-top: 1rem;
 padding-bottom: 10rem;
@@ -314,10 +343,11 @@ min-height: 50vh;
 }
 
 .homepage-image img {
-  width: 400px;
+  max-width: 100%;
   height: auto;
 
 }
+
 
 .project-image img {
   width: 100%;
