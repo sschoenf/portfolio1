@@ -4,7 +4,6 @@ a {
 }
 
 a .selected {
-  /*text-decoration: underline #00797B;*/
     display: inline-block;
     border-bottom: 2px solid #00797B;
 }
@@ -57,7 +56,7 @@ header{
     padding: 1rem 1rem 0 1rem;
 }
 
-/*nav*/
+/*nav styling*/
 
 nav {
     display: -webkit-box;
@@ -118,7 +117,7 @@ p {
 
 }
 
-
+/*index page heading and text styles*/
 .nav-name-style {
     font-family: "SFUITextMedium", Arial , sans-serif;
     font-size: 1rem;
@@ -188,7 +187,7 @@ p {
 }
 
 
-/*Project pages headings*/
+/*Project pages headings and text styles*/
 .project-header {
   font-family: "SFUITextMedium", Arial , sans-serif;
   font-size: 1.8rem;
@@ -311,7 +310,7 @@ text-align: center;
 
 
 
-/*background bleed*/
+/*background bleed settings*/
 .background-homepage {
 
 background-color: #F8F8F8;
@@ -322,7 +321,7 @@ min-height: 50vh;
 
 
 .background-quiksilver {
-  background-position: bottom center;
+background-position: bottom center;
 background-size: cover;
 background-image: url("../img/qs-background.png");
 padding-top: 1rem;
@@ -338,6 +337,15 @@ min-height: 50vh;
 }
 
 
+.background-contact {
+background-position: bottom center;
+background-size: cover;
+background-image: url("../img/IMG_0629.png");
+padding-top: 1rem;
+padding-bottom: 10rem;
+min-height: 50vh;
+}
+
 .homepage-image {
   margin: 0;
 }
@@ -349,6 +357,7 @@ min-height: 50vh;
 }
 
 
+/*Index, project preview image settings*/
 .project-image img {
   width: 100%;
   height: auto;
