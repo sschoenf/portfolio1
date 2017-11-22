@@ -319,6 +319,14 @@ padding-bottom: 10rem;
 min-height: 50vh;
 }
 
+.background-index {
+background-position: bottom center;
+background-size: cover;
+background-image: url("../img/index-background.png");
+padding-top: 1rem;
+padding-bottom: 10rem;
+min-height: 50vh;
+}
 
 .background-quiksilver {
 background-position: bottom center;
@@ -340,7 +348,7 @@ min-height: 50vh;
 .background-contact {
 background-position: bottom center;
 background-size: cover;
-background-image: url("../img/IMG_0629.png");
+background-image: url("../img/contact-background.png");
 padding-top: 1rem;
 padding-bottom: 10rem;
 min-height: 50vh;
