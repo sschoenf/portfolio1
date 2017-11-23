@@ -8,9 +8,8 @@ a .selected {
     border-bottom: 2px solid #00797B;
 }
 
-/*h2:focus, h2:hover*/
 
-a:focus, a:hover,  {
+a:focus, a:hover  {
 
   color: #FFD6D0;
   text-decoration: none;
