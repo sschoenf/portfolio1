@@ -73,6 +73,10 @@ nav {
   margin-top: 0;
 }
 
+.header-background{
+  background-color: #F8F8F8;
+  width: 100%;
+}
 
 main {
     max-width: 72rem;
@@ -267,6 +271,14 @@ line-height: 33px;
 text-align: center;
 }
 
+.project-side-note {
+  font-family: "SFUITextLight", Arial , sans-serif;
+  font-size: .8rem;
+  color: #969595;
+  line-height: 20px;
+  opacity: 40%;
+  }
+
 
 .contact-text-style {
   font-family: "SFUITextMedium", Arial , sans-serif;
@@ -277,8 +289,9 @@ text-align: center;
 }
 
 
+
 .center-text {
-text-align: center; 
+text-align: center;
 }
 
 .contact-links {
@@ -305,6 +318,11 @@ text-align: center;
 .extra-8-3-margin {
   margin-top: 8rem;
   margin-bottom: 3rem;
+}
+
+.no-side-margin{
+  margin-left: 0;
+  margin-right: 0;
 }
 
 /*
