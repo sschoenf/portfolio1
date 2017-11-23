@@ -276,6 +276,11 @@ text-align: center;
   line-height: 40px;
 }
 
+
+.center-text {
+text-align: center; 
+}
+
 .contact-links {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -287,6 +292,14 @@ text-align: center;
   justify-content: flex-start;
   margin-bottom: 5rem;
 
+}
+
+.extra-3-rem-top-margin{
+    margin-top: 3rem;
+}
+
+.extra-6-rem-top-margin{
+  margin-top: 6rem;
 }
 
 .extra-8-3-margin {
