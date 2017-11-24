@@ -120,6 +120,7 @@ p {
 
 }
 
+
 /*index page heading and text styles*/
 .nav-name-style {
     font-family: "SFUITextMedium", Arial , sans-serif;
@@ -205,6 +206,23 @@ p {
   color: #777A7D;
   letter-spacing: 0.78px;
   margin-top: 0rem;
+}
+
+.project-header-members-role-tools {
+
+font-family: "SFUITextBold", Arial , sans-serif;
+font-size: .9rem;;
+color: #6F7173;
+letter-spacing: 0.61px;
+}
+
+.project-members-role-tools {
+
+  font-family: "SFUITextRegular", Arial , sans-serif;
+  font-size: .7rem;
+  color: #6F7173;
+  letter-spacing: 0.52px;
+  margin-top:0.1rem;
 }
 
 .project-paragraph-description {
@@ -306,6 +324,8 @@ text-align: center;
 
 }
 
+/*Extra margin spaces for text*/
+
 .extra-3-rem-top-margin{
     margin-top: 3rem;
 }
@@ -319,6 +339,10 @@ text-align: center;
   margin-bottom: 3rem;
 }
 
+.extra-bottom-3-margin {
+
+  margin-bottom: 3rem;
+}
 .no-side-margin{
   margin-left: 0;
   margin-right: 0;
@@ -414,6 +438,5 @@ a.card {
 }
 
 a.card:hover, a.card:focus {
-
   box-shadow: 2px 3px 6px #888888;
 }
