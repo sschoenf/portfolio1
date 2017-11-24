@@ -16,6 +16,10 @@ a:focus, a:hover  {
 
 }
 
+a:hover .nav-text-style {
+    color: pink;
+}
+
 .selected:focus .selected:hover{
   display: inline-block;
   border-bottom: 2px solid #FFD6D0;
