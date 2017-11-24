@@ -28,6 +28,7 @@ footer {
 
 
 header{
+  background-color: #F8F8F8;
   position:fixed;
   width:100%;
 }
@@ -37,7 +38,7 @@ header{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 1rem 0;
+    padding: .5rem 0;
     width: 100%;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -51,9 +52,9 @@ header{
   }
 
 
-  .padded-container {
+  /*.padded-container {
     padding: 1rem 1rem 0 1rem;
-}
+}*/
 
 /*nav styling*/
 
@@ -368,7 +369,7 @@ text-align: center;
 .background-homepage {
 
 background-color: #F8F8F8;
-padding-top: 1rem;
+/*padding-top: 1rem;*/
 padding-bottom: 10rem;
 min-height: 50vh;
 }
@@ -377,7 +378,7 @@ min-height: 50vh;
 background-position: bottom center;
 background-size: cover;
 background-image: url("../img/index-background.png");
-padding-top: 1rem;
+/*padding-top: 1rem;*/
 padding-bottom: 10rem;
 min-height: 50vh;
 }
@@ -386,14 +387,14 @@ min-height: 50vh;
 background-position: bottom center;
 background-size: cover;
 background-image: url("../img/qs-background.png");
-padding-top: 1rem;
+/*padding-top: 1rem;*/
 padding-bottom: 10rem;
 min-height: 50vh;
 }
 
 .background-wholefoods {
 background-image: url("../img/wf-background.png");
-padding-top: 1rem;
+/*padding-top: 1rem;*/
 padding-bottom: 10rem;
 min-height: 50vh;
 }
@@ -403,7 +404,7 @@ min-height: 50vh;
 background-position: bottom center;
 background-size: cover;
 background-image: url("../img/contact-background.png");
-padding-top: 1rem;
+/*padding-top: 1rem;*/
 padding-bottom: 10rem;
 min-height: 50vh;
 }
