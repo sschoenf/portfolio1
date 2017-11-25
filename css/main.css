@@ -392,7 +392,7 @@ background-position: bottom center;
 background-size: cover;
 background-image: url("../img/qs-background.jpg");
 /*padding-top: 1rem;*/
-padding-bottom: 10rem;
+padding-bottom: 5rem;
 min-height: 50vh;
 }
 
@@ -409,7 +409,7 @@ background-position: bottom center;
 background-size: cover;
 background-image: url("../img/contact-background.jpg");
 /*padding-top: 1rem;*/
-padding-bottom: 10rem;
+padding-bottom: 5rem;
 min-height: 50vh;
 }
 
