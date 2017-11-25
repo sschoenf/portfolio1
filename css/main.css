@@ -298,7 +298,7 @@ text-align: center;
   font-size: .8rem;
   color: #969595;
   line-height: 20px;
-  opacity: 40%;
+  opacity: 0.4;
   }
 
 
@@ -381,7 +381,7 @@ min-height: 50vh;
 .background-index {
 background-position: bottom center;
 background-size: cover;
-background-image: url("../img/index-background.png");
+background-image: url("../img/index-background.jpg");
 /*padding-top: 1rem;*/
 padding-bottom: 10rem;
 min-height: 50vh;
@@ -390,14 +390,14 @@ min-height: 50vh;
 .background-quiksilver {
 background-position: bottom center;
 background-size: cover;
-background-image: url("../img/qs-background.png");
+background-image: url("../img/qs-background.jpg");
 /*padding-top: 1rem;*/
 padding-bottom: 10rem;
 min-height: 50vh;
 }
 
 .background-wholefoods {
-background-image: url("../img/wf-background.png");
+background-image: url("../img/wf-background.jpg");
 /*padding-top: 1rem;*/
 padding-bottom: 10rem;
 min-height: 50vh;
@@ -407,7 +407,7 @@ min-height: 50vh;
 .background-contact {
 background-position: bottom center;
 background-size: cover;
-background-image: url("../img/contact-background.png");
+background-image: url("../img/contact-background.jpg");
 /*padding-top: 1rem;*/
 padding-bottom: 10rem;
 min-height: 50vh;
