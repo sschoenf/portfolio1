@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <title>P03 - Style Guide</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/fonts.css">
+  <link rel="stylesheet" type="text/css" href="css/grids.css">
+
+
+</head>
+
+<body>
+
+  <h1>Portfolio style guide</h1>
+
+  <nav>
+
+    <p>
+      On this page:
+    </p>
+    <ul>
+      <li>
+        <a href="#interactive_elements">Interactive Elements</a>
+      </li>
+      <li>
+        <a href="#text_elements">Text Elements</a>
+      </li>
+      <li>
+        <a href="#combined_elements">Combined Elements</a>
+      </li>
+    </ul>
+
+
+  </nav>
+
+
+
+  <!-- INTERACTIVE ELEMENTS SECTION // -->
+  <section id="interactive_elements">
+
+    <!-- Default Button styling section -->
+    <section>
+
+      <h2>Navigation</h2>
+
+      <h3>CSS selector:</h3>
+      <p>.nav-name-style nav-text-style .header-branding .nav-heading </p>
+
+      <h3>Sample code:</h3>
+      <code>&lt;a class="nav-heading nav-text-style" href="#" &gt; nav &lt;/a&gt;</code>
+
+      <h3>Rendered element:</h3>
+      <a href="#" class="selected">
+        <h1 class="selected nav-heading nav-text-style"> nav </h1> </a>
+
+    </section>
+
+    <section>
+      <h2>In-text link</h2>
+
+      <h3>CSS selector:</h3>
+      <p>.in-textlink</p>
+
+      <h3>Sample code:</h3>
+      <code>&lt;a class="in-textlink" href="#"&gt; In-text Link&lt;/a&gt;</code>
+
+      <h3>Rendered element:</h3>
+      <a href="#" class="selected">
+        <h1 class="selected nav-text-style"> link </h1> </a>
+
+    </section>
+
+
+
+  </section>
+  <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+  <!-- TEXT ELEMENTS SECTION // -->
+  <section id="text_elements">
+
+    <section>
+      <h2>Headings</h2>
+
+      <h3>CSS selector:</h3>
+      <p>h1, h2, p</p>
+
+      <h3>Sample code:</h3>
+      <code>&lt;h1&gt;Main Heading&lt;/h1&gt;</code>
+      <code>&lt;h2&gt;Sub Heading&lt;/h2&gt;</code>
+      <code>&lt;p&gt;Body Text&lt;/p&gt;</code>
+
+      <h3>Rendered element:</h3>
+      <h1> Main Heading </h1>
+      <h2> Sub Heading </h2>
+      <p> Body Text </p>
+
+    </section>
+
+    <section>
+      <h2>Paragraphs</h2>
+      <h3>CSS selector:</h3>
+      <p>.p1, .p2, .p3</p>
+
+      <h3> Sample code:</h3>
+      <code>
+        &lt;p class="p1"&gt; Lorem ipsum dolor sit amet, consectetur adipiscing elit &lt;/p&gt; <br>
+        &lt;p class="p2"&gt; Lorem ipsum dolor sit amet, consectetur adipiscing elit &lt;/p&gt;<br>
+        &lt;p class="p3"&gt; Lorem ipsum dolor sit amet, consectetur adipiscing elit &lt;/p&gt;<br>
+      </code>
+
+      <h3>Rendered element:</h3>
+      <p class="p1"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="p2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="p3"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+
+
+    </section>
+
+    <section>
+      <h2>Bulleted Lists</h2>
+      <h3>CSS selector:</h3>
+      <p>ul.bullet</p>
+
+
+      <h3> Sample code:</h3>
+      <code>
+      &lt;ul class="bullet"&gt; <br>
+        &lt;li>Item 1&lt;/li&gt; <br>
+        &lt;li>Item 2&lt;/li&gt; <br>
+        &lt;li>Item 3 &lt;/li&gt; <br>
+    &lt;/ul>
+  </code>
+
+      <h3>Rendered element:</h3>
+      <ul class="bullet">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3 </li>
+      </ul>
+
+    </section>
+
+    <section>
+      <h2>Numbered Lists</h2>
+      <h3>CSS selector:</h3>
+      <p>ol.numbers</p>
+
+
+      <h3> Sample code:</h3>
+      <code>
+      &lt;ol class="numbers"&gt; <br>
+        &lt;li>Item 1&lt;/li&gt; <br>
+        &lt;li>Item 2&lt;/li&gt; <br>
+        &lt;li>Item 3 &lt;/li&gt; <br>
+      &lt;/ul&gt;
+      </code>
+
+      <h3>Rendered element:</h3>
+      <ol class="numbers">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3 </li>
+        </ul>
+    </section>
+
+  </section>
+  <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+  <!-- COMBINED ELEMENTS SECTION // -->
+  <section id="combined_elements">
+
+    <section>
+      <h2>Main Navigation</h2>
+      <h3>CSS selector:</h3>
+      <p> .button-nav, box-nav </p>
+
+      <h3> Sample code:</h3>
+      <code>
+        &lt;nav&gt; <br>
+        &lt;a class="button-nav box-nav" href="#"&gt; Events&lt;/a&gt; <br>
+        &lt;a class="button-nav box-nav" href="#"&gt; Hikes&lt;/a&gt; <br>
+        &lt;a class="button-nav box-nav" href="#"&gt; Shop&lt;/a&gt; <br>
+        &lt;a class="button-nav box-nav" href="#"&gt; Contact&lt;/a&gt; <br>
+    &lt;nav&gt; <br>
+    </code>
+
+      <h3>Rendered element:</h3>
+      <nav>
+        <a class="button-nav box-nav" href="#"> Events</a>
+        <a class="button-nav box-nav" href="#"> Hikes</a>
+        <a class="button-nav box-nav" href="#"> Shop</a>
+        <a class="button-nav box-nav" href="#"> Contact</a>
+      </nav>
+
+    </section>
+
+    <section>
+      <h2>Product Listing</h2>
+      <h3>CSS selector:</h3>
+      <p> .button-nav, .product-text, .body-image </p>
+
+      <h3> Sample code:</h3>
+
+      <code>
+
+      &lt;div class="body-image"&gt; <br>
+        &lt;img src="img/rockclimbing.jpg" class="body-image img-product" alt="rockclimbingimage"&gt; <br>
+      &lt;/div&gt; <br>
+
+      &lt;div class="product-text"&gt; <br>
+        &lt;h1 class="h1-product"> Rockclimbing&lt;/h1&gt; <br>
+        &lt;h2 class="h2-product"> Date: &lt;/h2&gt; <br>
+        &lt;p> Sunday, Sept 7 &lt;/p&gt; <br>
+        &lt;h2 class="h2-product"> Time: &lt;/h2&gt;<br>
+        &lt;p> 10 am - 12 pm &lt;/p&gt;<br>
+        &lt;h2 class="h2-product"> Price: &lt;/h2&gt;<br>
+        &lt;p> $ 13.00 &lt;/p&gt;<br>
+      &lt;/div&gt;<br>
+      &lt;div&gt;<br>
+        &lt;p class="p2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+          dolor in reprehenderit in&lt;/p&gt;<br>
+      &lt;/div&gt;<br>
+
+    </code>
+
+
+      <h3>Rendered element:</h3>
+
+      <div class="body-image">
+        <img src="img/rockclimbing.jpg" class="body-image img-product" alt="rockclimbingimage">
+      </div>
+
+      <div class="product-text">
+        <h1 class="h1-product"> Rockclimbing</h1>
+        <h2 class="h2-product"> Date: </h2>
+        <p> Sunday, Sept 7 </p>
+        <h2 class="h2-product"> Time: </h2>
+        <p> 10 am - 12 pm </p>
+        <h2 class="h2-product"> Price: </h2>
+        <p> $ 13.00 </p>
+      </div>
+      <div>
+        <p class="p2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+          dolor in reprehenderit in</p>
+      </div>
+
+    </section>
+
+    <section>
+      <h2>Color palette</h2>
+
+      <a class="color-swatch-orange"> #f87f01</a>
+      <a class="color-swatch-blue"> #435969</a>
+      <a class="color-swatch-darkblue"> #212931</a>
+      <a class="color-swatch-yellow"> #feca01</a>
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+
+
+
+</body>
+
+</html>
