@@ -56,11 +56,6 @@ header{
   }
 
 
-  /*.padded-container {
-    padding: 1rem 1rem 0 1rem;
-}*/
-
-/*nav styling*/
 
 nav {
     display: -webkit-box;
@@ -360,20 +355,6 @@ text-align: center;
   margin-left: 0;
   margin-right: 0;
 }
-
-/*
-.center {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-}*/
-/*sections*/
 
 
 

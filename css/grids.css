@@ -11,6 +11,21 @@
     display: block;
 }
 
+.grid-styleguide{
+  display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #252342;
+    color: white;
+
+}
+
 
 .col {
     -webkit-box-flex: 1;
@@ -19,6 +34,7 @@
 
 }
 
+/* Basic grid structure from project 02 code-creation station */
 .grid .col.bleed {
     padding: 0;
 }
@@ -201,15 +217,6 @@
     max-width: 72rem;
     margin: auto;
 }
-/*
-@media (min-width: 30.125em) {
-
-  .col.one-third {
-      -webkit-box-flex: 0;
-      -ms-flex: 0 0 100%;
-      flex: 0 0 100%;
-  }
-*/
 
 
 }
