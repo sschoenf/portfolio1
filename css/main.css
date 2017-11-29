@@ -89,6 +89,14 @@ main {
     width: 100%;
 }
 
+.main_fix {
+    max-width: 72rem;
+    margin: auto;
+    padding-top: 5.857125rem;
+    width: 100%;
+}
+
+
 .main_wrap {
   flex-wrap: wrap;
 }
